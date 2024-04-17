@@ -1,8 +1,4 @@
-document.getElementById("search_btn").addEventListener('click', search_message);
-
-function search_message(){
-alert("검색을 수행합니다!");
-} 
+//function search_message(){ alert("검색을 수행합니다!");} 
 
 function googleSearch() {
     const searchTerm = document.getElementById("search_input").value; // 검색어로 설정
@@ -11,3 +7,10 @@ function googleSearch() {
     window.open(googleSearchUrl, "_blank"); // 새로운 창에서 열기.
     return false;
     }
+
+    const search_message = () => {
+        const c = '검색을 수행합니다';
+        alert(c);
+    };
+
+    document.getElementById("search_btn").addEventListener('click', search_message);
