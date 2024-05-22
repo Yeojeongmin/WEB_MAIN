@@ -12,6 +12,8 @@
     <script type="text/javascript" src="js/search.js" defer></script>
     <script type="text/javascript" src="js/data_type.js" defer></script>
     <script type="text/javascript" src="js/pop_up.js" defer></script>
+    <script type="text/javascript" src="js/login.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
         table {
             font-size: 20pt;
@@ -22,7 +24,7 @@
         }
     </style>
 </head>
-<body style="background-color: black;" onload="pop_up();">
+<body style="background-color: black;" onload="init_logined();">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <nav class="navbar bg-body-tertiary">
@@ -72,7 +74,7 @@
                   <form class="d-flex" role="search" onsubmit = "return googleSearch();">
                     <input class="form-control me-2" id="search_input" name="q" type="search" placeholder="키워드 입력" aria-label="Search">
                     <button class="btn btn-outline-success" id="search_btn" type="submit">검색</button>
-                    <a href="login/logout.html" class="btn btn-outline-success" id="logout_btn">Logout</a>
+                    <a href="login/logout.html" class="btn btn-outline-success" id="logout_bttt">Logout</a>
                   </form>
                 </div>
               </nav>
