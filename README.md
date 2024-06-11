@@ -1,6 +1,5 @@
-# https://github.com/yeojm2282@gmail.com/WEB_20221076
+# https://github.com/yeojm2282@gmail.com/WEB_MAIN
 ![image](https://user-images.githubusercontent.com/128564782/226795094-f77ea0e6-39d8-445b-9f2f-5ac3295823a8.png)
-## 2023년 3월 22일 깃허브 테스트 완료
 
 미디어소프트웨어학과 20221076학번 여정민 보고서 리포트
 
